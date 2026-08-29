@@ -1,35 +1,41 @@
-ℹ️ DeFi Overview
+ℹ️ DeFi Overview — 2026-08-29
 
-*Crypto — 2026-08-29* — chop (medium conviction) | DeFi Mixed: Volume -9.5% drags on flat TVL and stablecoins
+*Crypto — 2026-08-29* — chop (low conviction) | DeFi Mixed: TVL drifting down -1.5% on sharply falling DEX volume (-9.8%), stables flat
 
-*TVL:* $286.7B (DeFi, excl CEX) · total mcap $2.61T (−5.07% 24h)
+*TVL:* $0.28T (-1.5% 24h, n/a 7d)
 
 *Top chains*
 1. Ethereum — $48.71B
-2. Solana — $5.85B
-3. BSC — $5.50B
+2. Solana — $5.84B
+3. Base — $5.48B
 
 *Movers*
-↑ Aerodrome Slipstream +40% ($128M→$180M) — no obvious catalyst
-↓ Solstice −18% ($310M→$254M) — no obvious catalyst
+↑ Aerodrome Slipstream +52% ($187M) — continues Base DEX momentum streak from prior days
+↓ Solstice −18% ($250M) — no obvious catalyst
+↑ Pendle +1.4% TVL, fees +66.6% 7d — yield tokenization demand growing (Maple +353.7% fees 7d)
+↓ Bitunix −12% ($260M) — no obvious catalyst
 
 *Fees leaders (24h)*
 1. Tether — $15.84M (−0.3% vs 7d avg)
-2. Circle USDC — $6.42M (flat)
-3. PumpSwap — $4.11M (+27.7% 7d)
+2. Circle — $6.42M (flat)
+3. PumpSwap — $4.11M (−11.8%)
 
-*DEX vol (24h):* $10.06B (−9.5%)  top: Uniswap V4 $1.35B, Uniswap V3 $1.02B, PancakeSwap V3 $0.71B
+*Fees beating TVL*
+• Maple — fees +354% / TVL +0.1% (7d) — $2.96B TVL, RWA lending fee surge
+• Pendle — fees +67% / TVL +0.8% (7d) — $1.17B TVL, yield markets heating up
 
-*Stables:* $310.7B (+0.1%) — RLUSD +5.7%, USDD +6.5% only notable moves
+*DEX vol (24h):* $10.0B (−9.8% 1d, −28.8% 7d) — top: Uniswap V4 $1.32B, Uniswap V3 $1.01B, PancakeSwap $0.71B
+
+*Stables:* $310.6B (−0.03% vs prior) — flat; Circle USYC −3.6% 1d the only notable single-issuer move
 
 *Real yield (sustainable, ≥$10M, filtered)*
-• stETH (Lido, ETH) — 2.2% apyBase ($23.4B TVL)
-• sUSDS (Sky, ETH) — 3.5% apyBase ($4.7B TVL)
-• USYC (Circle, BSC) — 3.2% apyBase ($2.7B TVL)
+• WETH-USDT (Ethereum) — 48.3% apyBase ($114M TVL)
+• ETH-USDC (Arbitrum) — 25.6% apyBase ($14M TVL)
+• WBTC-USDT (Ethereum) — 21.0% apyBase ($18M TVL)
 
-*Incentive yield (emissions)*
-• Aerodrome (Base) — 22.2% apy via $AERO ($28.8M TVL)
-• Convex (ETH) — 15.8% apy via $CVX/$CRV ($47M TVL)
+*Incentive yield (points / emissions, ≥$25M)*
+• USDC-AERO (Base) — 22.2% apy via AERO rewards ($29M TVL)
+• CVXCRV (Ethereum) — 15.8% apy via CRV/CVX/FRAX ($47M TVL)
 
-*Macro:* BTC $77,674 (−2.0%) / ETH $2,437 (−2.1%) · F&G 68 (Greed) · breadth 4/20 · hot market: "Fed no change Sep 2026" YES 54.5%
+*Macro:* BTC $77,711 (−2.5%) / ETH $2,437 (−2.8%) · F&G 68 (Greed) · breadth 7/20 green · hot market: "Fed no change Sep 2026" YES 54.5%
 _sources: llama_tvl=ok llama_dex=ok llama_fees=ok llama_stables=ok llama_yields=ok coingecko=ok fng=ok polymarket=ok websearch=fail | var: none_

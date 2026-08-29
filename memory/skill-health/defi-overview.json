@@ -1,8 +1,8 @@
 {
   "skill": "defi-overview",
-  "last_analyzed": "2026-08-29T10:38:52Z",
+  "last_analyzed": "2026-08-29T11:26:51Z",
   "quality_score": 4,
-  "assessment": "Substantive, well-structured DeFi overview with verifiable data sources, clear signal on movers and yields, and proper source annotations.",
+  "assessment": "Substantive, well-structured DeFi overview with verifiable data points, clear source attribution, and no filler; falls short of 5 because it's a competent aggregation rather than a deep analytical insight piece.",
   "flags": [],
   "avg_score": 4,
   "history": [
@@ -10,6 +10,13 @@
       "date": "2026-08-29",
       "score": 4,
       "ts": "2026-08-29T10:38:52Z",
+      "harness": "pi",
+      "model": "openrouter/deepseek/deepseek-v4-flash"
+    },
+    {
+      "date": "2026-08-29",
+      "score": 4,
+      "ts": "2026-08-29T11:26:51Z",
       "harness": "pi",
       "model": "openrouter/deepseek/deepseek-v4-flash"
     }

@@ -118,7 +118,7 @@ skills:
   inbox-triage: { enabled: false, schedule: "30 11 * * *" } # daily 11:30 — GitHub notification-inbox triage (maintainer replies to disclosures/advisories/mentions)
 
   # Dev & repo
-  feature: { enabled: false, schedule: "0 10 * * 6", var: "" } # build a feature + open PR. var: watched (default) | external:<owner/repo> | dormant[:<owner/repo>], append --fix-issues (folds in external-feature/repo-revive). GH_GLOBAL for external.
+  feature: { enabled: true, schedule: "0 10 * * 6", var: "" } # build a feature + open PR. var: watched (default) | external:<owner/repo> | dormant[:<owner/repo>], append --fix-issues (folds in external-feature/repo-revive). GH_GLOBAL for external.
 
   # Research & content
   write-tweet: { enabled: false, schedule: "0 21 * * *", var: "" } # tweet studio. var: empty=drafts (10×5 tiers) | thread [topic] | remix [window]. Optional XAI_API_KEY (required for remix).

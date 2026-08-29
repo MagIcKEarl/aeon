@@ -1,0 +1,17 @@
+{
+  "skill": "pr-triage",
+  "last_analyzed": "2026-08-29T12:01:27Z",
+  "quality_score": 4,
+  "assessment": "Substantive, well-structured triage output with clear verdicts per PR, reasoning for each, and transparent surfacing of a tool limitation (token scope). Aligns to strategy priorities: correct and verifiable work, surfacing signal early. No errors or filler.",
+  "flags": [],
+  "avg_score": 4,
+  "history": [
+    {
+      "date": "2026-08-29",
+      "score": 4,
+      "ts": "2026-08-29T12:01:27Z",
+      "harness": "pi",
+      "model": "openrouter/deepseek/deepseek-v4-flash"
+    }
+  ]
+}

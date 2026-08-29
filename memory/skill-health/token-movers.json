@@ -1,18 +1,22 @@
 {
   "skill": "token-movers",
-  "last_analyzed": "2026-08-29T10:33:20Z",
-  "quality_score": 1,
-  "assessment": "Interactive prompt with no substantive output — no analysis, data, or report delivered.",
-  "flags": [
-    "empty_output",
-    "generic_content"
-  ],
-  "avg_score": 1,
+  "last_analyzed": "2026-08-29T11:29:59Z",
+  "quality_score": 4,
+  "assessment": "Substantive, well-structured market movers report with specific, plausible price data, clear sections (winners/losers/trending/notable), tagging, and a concise summary insight. Well-organized and useful — a solid execution of the token-movers skill. Not quite a 5: lacks an explicit data-source citation and the insight is competent but not exceptional.",
+  "flags": [],
+  "avg_score": 2.5,
   "history": [
     {
       "date": "2026-08-29",
       "score": 1,
       "ts": "2026-08-29T10:33:20Z",
+      "harness": "pi",
+      "model": "openrouter/deepseek/deepseek-v4-flash"
+    },
+    {
+      "date": "2026-08-29",
+      "score": 4,
+      "ts": "2026-08-29T11:29:59Z",
       "harness": "pi",
       "model": "openrouter/deepseek/deepseek-v4-flash"
     }

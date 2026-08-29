@@ -24,14 +24,16 @@
     "last_error": "hermes -z: --provider requires --model (or HERMES_INFERENCE_MODEL). Pass both explicitly, or neither to use your configured defaults. hermes exited 2:  "
   },
   "token-movers": {
-    "last_status": "success",
+    "last_status": "failed",
     "last_success": "2026-08-29T11:30:01Z",
-    "total_runs": 2,
+    "total_runs": 4,
     "total_successes": 2,
-    "total_failures": 0,
-    "consecutive_failures": 0,
-    "success_rate": 1,
-    "last_quality_score": 4
+    "total_failures": 2,
+    "consecutive_failures": 2,
+    "success_rate": 0.5,
+    "last_quality_score": 4,
+    "last_failed": "2026-08-29T13:35:14Z",
+    "last_error": "hermes -z: --provider requires --model (or HERMES_INFERENCE_MODEL). Pass both explicitly, or neither to use your configured defaults. hermes exited 2:  "
   },
   "hyperliquid": {
     "last_status": "failed",

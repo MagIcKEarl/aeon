@@ -1,0 +1,20 @@
+{
+  "skill": "token-movers",
+  "last_analyzed": "2026-08-29T10:33:20Z",
+  "quality_score": 1,
+  "assessment": "Interactive prompt with no substantive output — no analysis, data, or report delivered.",
+  "flags": [
+    "empty_output",
+    "generic_content"
+  ],
+  "avg_score": 1,
+  "history": [
+    {
+      "date": "2026-08-29",
+      "score": 1,
+      "ts": "2026-08-29T10:33:20Z",
+      "harness": "pi",
+      "model": "openrouter/deepseek/deepseek-v4-flash"
+    }
+  ]
+}

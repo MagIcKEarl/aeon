@@ -1,50 +1,44 @@
-ℹ️ Prediction Markets — Aug 29, 2026 (Kalshi)
+ℹ️ Prediction Markets Monitor — 2026-08-29
 
-*Kalshi monitor — Aug 29, 2026*
-verdict: No watchlist configured — discovered 5 trending events; Romania PM race sees mild action, AI IPO markets tilted toward Anthropic.
+prediction markets — 2026-08-29: muted across both venues — Kalshi tracked events all quiet, Romanian PM race has fresh volume
 
-**Who will be the next new Prime Minister of Romania?** (KXNEXTROMANIAPM) — Elections
-| Market | prob | Δ24h | range | vol | spread |
-|--------|------|------|-------|-----|--------|
-| Eugen Tomac (PMP) | 10% | +4.0pp ▲ | 6–10% | $64 | 64pp |
-| George Simion (AUR) | 3% | +2.0pp ▲ | 1–3% | $2 | 37pp |
-| Cătălin Predoiu (PNL) | 1% | 0pp | 1% | $2 | 25pp |
-| Alexandru Nazare (PNL) | 40% | 0pp | 40% | $0 | 8pp |
-| Sorin Grindeanu (PSD) | 20% | 0pp | 20% | $0 | 17pp |
-mover: Tomac up 4pp on 635ctr — leading candidate shifting, but extremely wide book (64pp) so price is not consensus
+— — —
 
-**Will OpenAI or Anthropic IPO first?** (KXOAIANTH) — Financials
-| Market | prob | Δ24h | range | vol | spread |
-|--------|------|------|-------|-----|--------|
-| OpenAI | 6% | −3.0pp ▼ | 6–9% | $16 | 2pp |
-| Anthropic | 93% | +2.0pp ▲ | 91–93% | $125 | 1pp |
-mover: Anthropic widening lead — tight book (1pp), $125 vol. Real money shifting toward Anthropic.
+*Kalshi monitor — 2026-08-29*
+verdict: all quiet — 5 events tracked, no >5pp moves on non-thin books
 
-**Will Elon Musk visit Mars in his lifetime?** (KXELONMARS) — World
-| Market | prob | Δ24h | range | vol | spread |
-|--------|------|------|-------|-----|--------|
-| Musk visits Mars | 10% | −2.0pp ▼ | 10–12% | $12 | 2pp |
-mover: slight dip, tight spread, 40k OI — stable
+**[Will OpenAI or Anthropic IPO first?](https://kalshi.com/markets/KXOAIANTH-40)** — Financials
+| Market | prob | Δ24h | vol | spread |
+|--------|------|------|-----|--------|
+| OpenAI IPO first (YES) | 6.0% | −3.0pp ▼ | $25 | 39pp (thin) |
+| Anthropic IPO first (YES) | 93.0% | +3.0pp ▲ | $25 | — |
+mover: OpenAI YES — falling 9→6% on thin book; opposite leg tracks in lockstep
 
-**Which G7 leader will leave office next?** (KXG7LEADEROUT) — Politics
-| Market | prob | Δ24h | range | vol | spread |
-|--------|------|------|-------|-----|--------|
-| German Chancellor | 13% | +1.0pp ▲ | 12–13% | $47 | 6pp |
-| President of France | 74% | 0pp | 74% | $20 | 6pp |
-mover: Merz slight uptick, Macron still dominant favorite
+**[US GDP 2033](https://kalshi.com/markets/KXGDPYEAR-33)** / **[2035](https://kalshi.com/markets/KXGDPYEAR-35)** / **[2036](https://kalshi.com/markets/KXGDPYEAR-36)** — Economics
+| Market | prob | Δ24h | spread |
+|--------|------|------|--------|
+| GDP 2033 ~6% | 12% (mean) | ±2pp → | 1–47pp |
+| GDP 2035 ~6% | 10% (mean) | ±2pp → | 1–54pp |
+| GDP 2036 ~4% | 8% (mean) | ±3pp → | 1–92pp |
+mover: 2036 2–3% bracket — falling 22→19% on 0 vol (illiquid)
 
-**Will a humanoid robot walk on Mars before a human does?** (KXROBOTMARS) — Science & Tech
-| Market | prob | Δ24h | range | vol | spread |
-|--------|------|------|-------|-----|--------|
-| Robot before human | 50% | +1.0pp ▲ | 49–50% | $49 | 5pp |
-mover: flat, wide spread, 16.7k OI
-
-**ALERTS** (moved >5pp on non-thin book)
-None today.
+**[Who will the next Pope be?](https://kalshi.com/markets/KXNEWPOPE-70)** — Elections
+| Market | prob | Δ24h | vol |
+|--------|------|------|-----|
+| Pietro Parolin | 4.2% | — | 24k lifetime |
+| Luis Antonio Tagle | 4.2% | — | 18k |
+| Fridolin Ambongo | 3.0% | — | 20k |
+| All others | 1–2.6% | — | 16–22k |
+mover: static — long-dated papal succession, no near-term catalyst
 
 **Trending (not tracked)**
-- None — top 5 by volume already monitored.
+- [Romanian PM succession](https://kalshi.com/markets/KXNEXTROMANIAPM-45JAN01) — 814 24h vol; Eugen Tomac (10%, 635 vol) and Alexandru Nazare (40% leader) active
+- [G7 leader to leave next](https://kalshi.com/markets/KXG7LEADEROUT-26JUL20) — 389 24h vol; France 74% favorite, Germany Chancellor at 13% with 363 vol (concrete near-term risk)
+- [Elon Musk Mars visit](https://kalshi.com/markets/KXELONMARS-99) — 108 24h vol, 10% prob, 118k lifetime volume (slow perpetual)
 
-sources: events=ok candlesticks=ok orderbook=ok (no depth orderbook, used market bid/ask)
+sources: events=ok candlesticks=ok orderbook=ok
 
-**Setup hint:** Add event tickers to `skills/monitor-polymarket/watchlist-kalshi.md` (one per line) to get regular alerts. Example: KXGDP-26Q2, KXINFLATION-26MAR, KXFED-26JUN.
+— — —
+
+*Polymarket monitor — 2026-08-29*
+No events to monitor — watchlist is empty. Add slugs to `skills/monitor-polymarket/watchlist-polymarket.md` to track markets.

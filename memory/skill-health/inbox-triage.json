@@ -1,0 +1,19 @@
+{
+  "skill": "inbox-triage",
+  "last_analyzed": "2026-08-29T11:58:27Z",
+  "quality_score": 2,
+  "assessment": "Correctly diagnosed the 403 and provided clear remediation steps, but delivered zero triage work — the skill's actual function was blocked entirely.",
+  "flags": [
+    "api_error"
+  ],
+  "avg_score": 2,
+  "history": [
+    {
+      "date": "2026-08-29",
+      "score": 2,
+      "ts": "2026-08-29T11:58:27Z",
+      "harness": "pi",
+      "model": "openrouter/deepseek/deepseek-v4-flash"
+    }
+  ]
+}

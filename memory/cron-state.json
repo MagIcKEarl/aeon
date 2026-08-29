@@ -81,13 +81,13 @@
   },
   "narrative-tracker": {
     "last_status": "success",
-    "last_success": "2026-08-29T10:41:46Z",
-    "total_runs": 1,
-    "total_successes": 1,
+    "last_success": "2026-08-29T11:27:34Z",
+    "total_runs": 2,
+    "total_successes": 2,
     "total_failures": 0,
     "consecutive_failures": 0,
     "success_rate": 1,
-    "last_quality_score": 4
+    "last_quality_score": 2
   },
   "yield-farming": {
     "last_status": "success",

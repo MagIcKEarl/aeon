@@ -29,14 +29,16 @@ Produce ONE token call and ONE prediction-market call per day, each with a numer
 
 ### 1. Fetch token data
 
+CoinGecko auth: use `./secretcurl` with a `{COINGECKO_API_KEY}` placeholder so the key never lands on the command line (a bare `$COINGECKO_API_KEY` is refused by the Bash permission analyzer). Build the header array only when the key is set, so the call stays keyless-public when it isn't.
+
 ```bash
+CG_HDR=(); [ -n "${COINGECKO_API_KEY:+x}" ] && CG_HDR=(-H "x-cg-demo-api-key: {COINGECKO_API_KEY}")
+
 # Trending coins
-curl -s "https://api.coingecko.com/api/v3/search/trending" \
-  ${COINGECKO_API_KEY:+-H "x-cg-demo-api-key: $COINGECKO_API_KEY"}
+./secretcurl -s "${CG_HDR[@]}" "https://api.coingecko.com/api/v3/search/trending"
 
 # Top 250 by market cap with 24h and 7d changes
-curl -s "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=250&page=1&sparkline=false&price_change_percentage=24h,7d" \
-  ${COINGECKO_API_KEY:+-H "x-cg-demo-api-key: $COINGECKO_API_KEY"}
+./secretcurl -s "${CG_HDR[@]}" "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=250&page=1&sparkline=false&price_change_percentage=24h,7d"
 
 # BTC + ETH 24h/7d for relative-strength benchmark (extract from the markets call above; no extra request needed)
 
@@ -102,7 +104,7 @@ Pick the market with the largest edge that clears the gate. If you cannot defend
 
 ### 6a. Notification — normal day (under 4000 chars)
 
-Send via `./notify`:
+Send via `./notify` and also write to stdout (captured output for health scoring):
 
 ```
 *Daily Pick — ${today}*
@@ -127,6 +129,8 @@ not financial advice — pattern-matching only
 If only one of the two pick types qualifies, send just that one section (omit the other entirely — do not include a HIGH and a SKIP in the same message).
 
 ### 6b. Notification — skip day
+
+Send via `./notify` and also write to stdout (captured output for health scoring):
 
 ```
 *Daily Pick — ${today}* — no picks
@@ -170,6 +174,16 @@ Append symbol + market question on a single line for easy grep next-day dedup, e
 ```
 TOKEN_PICK_DEDUP: SYMBOL | "Will X happen by Y?"
 ```
+
+### 8. Output substance to stdout (captured output)
+
+After logging, output the day's findings as your **final message** (stdout). This is what the health scorer, chained skills (via `consume:`), and the feed renderer read — it must carry the substance, not a pointer.
+
+- On a **normal day** (6a): echo the full notification body (token + market picks, scores, catalyst, risks, sources footer) to stdout.
+- On a **skip day** (6b): echo the skip message with the best-scoring candidate.
+- On **all sources failed**: echo `TOKEN_PICK_NO_DATA` with the source-status line.
+
+**Do not** end with `./notify`-only and a terse line like "Sent" — the substantive report must appear in stdout.
 
 ## Network note
 

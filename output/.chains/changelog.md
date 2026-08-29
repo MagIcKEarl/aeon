@@ -1,0 +1,2 @@
+Changelog — Week of 2026-08-29
+1 repo: 13 user-facing changes (2 added, 1 changed, 9 fixed, 1 security). Top: Vercel fx CLI added as 7th harness + new skill-article skill + 9 infrastructure fixes. Full: output/articles/changelog-2026-08-29.md

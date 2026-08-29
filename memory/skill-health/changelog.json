@@ -1,0 +1,17 @@
+{
+  "skill": "changelog",
+  "last_analyzed": "2026-08-29T12:00:17Z",
+  "quality_score": 3,
+  "assessment": "Completed task adequately: output provides a clear summary with change breakdown and points to a substantive, well-structured full article with verifiable PR references.",
+  "flags": [],
+  "avg_score": 3,
+  "history": [
+    {
+      "date": "2026-08-29",
+      "score": 3,
+      "ts": "2026-08-29T12:00:17Z",
+      "harness": "pi",
+      "model": "openrouter/deepseek/deepseek-v4-flash"
+    }
+  ]
+}

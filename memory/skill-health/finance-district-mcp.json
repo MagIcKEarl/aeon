@@ -1,0 +1,17 @@
+{
+  "skill": "finance-district-mcp",
+  "last_analyzed": "2026-08-29T11:19:44Z",
+  "quality_score": 3,
+  "assessment": "Acceptable - skill ran, diagnosed the missing connection clearly, and provided actionable next steps; primary task was blocked but the diagnostic output is useful and verifiable",
+  "flags": [],
+  "avg_score": 3,
+  "history": [
+    {
+      "date": "2026-08-29",
+      "score": 3,
+      "ts": "2026-08-29T11:19:44Z",
+      "harness": "pi",
+      "model": "openrouter/deepseek/deepseek-v4-flash"
+    }
+  ]
+}

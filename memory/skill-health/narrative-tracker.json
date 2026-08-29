@@ -1,0 +1,17 @@
+{
+  "skill": "narrative-tracker",
+  "last_analyzed": "2026-08-29T10:41:44Z",
+  "quality_score": 4,
+  "assessment": "Substantive, well-sourced, and transparent analysis with cited URLs, bear cases for each position, reflexivity alerts that surface genuine signal, and quantitative cross-checks. Transparently documents API fallback. Aligns with strategy priorities: verifiable work with cited sources, depth across 9 narratives, early signal via reflexivity patterns.",
+  "flags": [],
+  "avg_score": 4,
+  "history": [
+    {
+      "date": "2026-08-29",
+      "score": 4,
+      "ts": "2026-08-29T10:41:44Z",
+      "harness": "pi",
+      "model": "openrouter/deepseek/deepseek-v4-flash"
+    }
+  ]
+}

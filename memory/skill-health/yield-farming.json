@@ -1,0 +1,19 @@
+{
+  "skill": "yield-farming",
+  "last_analyzed": "2026-08-29T10:42:06Z",
+  "quality_score": 2,
+  "assessment": "Well-structured and fluent yield report with specific APY/TVL figures, but lacks any source citations, timestamps, or methodology — the detailed numeric claims are unverifiable, and the rubric caps such output at 2.",
+  "flags": [
+    "unverifiable_claim"
+  ],
+  "avg_score": 2,
+  "history": [
+    {
+      "date": "2026-08-29",
+      "score": 2,
+      "ts": "2026-08-29T10:42:06Z",
+      "harness": "pi",
+      "model": "openrouter/deepseek/deepseek-v4-flash"
+    }
+  ]
+}

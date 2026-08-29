@@ -1,0 +1,19 @@
+{
+  "skill": "unlock-monitor",
+  "last_analyzed": "2026-08-29T10:48:30Z",
+  "quality_score": 4,
+  "assessment": "Substantive, well-structured analysis with transparent source reporting; properly flags data-degraded status while still delivering useful signal about the $1.52B unlock concentration.",
+  "flags": [
+    "api_error"
+  ],
+  "avg_score": 4,
+  "history": [
+    {
+      "date": "2026-08-29",
+      "score": 4,
+      "ts": "2026-08-29T10:48:30Z",
+      "harness": "pi",
+      "model": "openrouter/deepseek/deepseek-v4-flash"
+    }
+  ]
+}

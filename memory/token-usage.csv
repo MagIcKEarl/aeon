@@ -1,4 +1,4 @@
 date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-08-29,unlock-monitor,openrouter/deepseek/deepseek-v4-flash,554,456,118272,0
 2026-08-29,unlock-monitor,openrouter/deepseek/deepseek-v4-flash,863,628,98048,0
-2026-08-29,vuln-tracker,openrouter/deepseek/deepseek-v4-flash,486,300,34304,0
+2026-08-29,github-trending,openrouter/deepseek/deepseek-v4-flash,0,0,0,0

@@ -309,13 +309,15 @@
     "last_error": "hermes -z: --provider requires --model (or HERMES_INFERENCE_MODEL). Pass both explicitly, or neither to use your configured defaults. hermes exited 2:  "
   },
   "vuln-scanner": {
-    "last_status": "success",
+    "last_status": "failed",
     "last_success": "2026-08-29T12:03:54Z",
-    "total_runs": 1,
+    "total_runs": 2,
     "total_successes": 1,
-    "total_failures": 0,
-    "consecutive_failures": 0,
-    "success_rate": 1
+    "total_failures": 1,
+    "consecutive_failures": 1,
+    "success_rate": 0.5,
+    "last_failed": "2026-08-29T13:37:51Z",
+    "last_error": "hermes -z: --provider requires --model (or HERMES_INFERENCE_MODEL). Pass both explicitly, or neither to use your configured defaults. hermes exited 2:  "
   },
   "fork-fleet": {
     "last_status": "failed",

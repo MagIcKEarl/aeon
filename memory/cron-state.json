@@ -60,14 +60,16 @@
     "last_quality_score": 5
   },
   "defi-overview": {
-    "last_status": "success",
+    "last_status": "failed",
     "last_success": "2026-08-29T11:26:53Z",
-    "total_runs": 2,
+    "total_runs": 3,
     "total_successes": 2,
-    "total_failures": 0,
-    "consecutive_failures": 0,
-    "success_rate": 1,
-    "last_quality_score": 4
+    "total_failures": 1,
+    "consecutive_failures": 1,
+    "success_rate": 0.67,
+    "last_quality_score": 4,
+    "last_failed": "2026-08-29T13:32:46Z",
+    "last_error": "hermes -z: --provider requires --model (or HERMES_INFERENCE_MODEL). Pass both explicitly, or neither to use your configured defaults. hermes exited 2:  "
   },
   "price-alert": {
     "last_status": "success",

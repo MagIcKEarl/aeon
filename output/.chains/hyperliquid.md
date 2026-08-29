@@ -1,63 +1,99 @@
-ℹ️ Hyperliquid Market Scan
+ℹ️ Hyperliquid Market Scan — 2026-08-29
 
-# Hyperliquid Market Scan — 2026-08-29
+## Hyperliquid Market Scan — 2026-08-29
 
-## Funding Highlights
+Broad risk-off: BTC -2.5%, ETH -2.7%. 15/15 high-OI coins all red — bearish divergence across the board. Funding polarised: extreme positive on memes, deep negative on L1s.
 
-**Most Positive Funding (longs pay shorts):**
-- **BRETT**: 0.004875%/1h → ~5.3% annualized | Notional OI=$210,718
-- **SPX**: 0.002755%/1h → ~3.0% annualized | Notional OI=$6,053,978
-- **APEX**: 0.002589%/1h → ~2.8% annualized | Notional OI=$3,053,186
-- **GRIFFAIN**: 0.002152%/1h → ~2.4% annualized | Notional OI=$775,032
-- **AZTEC**: 0.001613%/1h → ~1.8% annualized | Notional OI=$442,382
+### Funding Highlights
 
-**Most Negative Funding (shorts pay longs):**
-- **ACE**: -0.014221%/1h → ~15.6% annualized (longs earn) | Notional OI=$603,594
-- **SKR**: -0.006570%/1h → ~7.2% annualized (longs earn) | Notional OI=$342,586
-- **MON**: -0.005915%/1h → ~6.5% annualized (longs earn) | Notional OI=$37,653,234
-- **OP**: -0.005540%/1h → ~6.1% annualized (longs earn) | Notional OI=$2,900,441
-- **GAS**: -0.005453%/1h → ~6.0% annualized (longs earn) | Notional OI=$74,314
+| Coin | Funding (1h) | Annualized APR | 24h Chg |
+|------|-------------|---------------|---------|
+| BTC  | +0.00125%   | +11.0% APR    | -2.5%  |
+| ETH  | +0.00125%   | +11.0% APR    | -2.7%  |
+| SOL  | +0.00125%   | +11.0% APR    | -2.5%  |
+| **Most positive:** AZTEC | **+0.00582%** | **+51.0% APR** | -2.6% |
+| SPX | +0.00459% | +40.2% APR | **-8.7%** |
+| BRETT | +0.00458% | +40.1% APR | -5.0% |
+| ZEC | +0.00389% | +34.1% APR | +0.9% |
+| **Most negative:** DOT | **-0.00522%** | **-45.7% APR** | -4.0% |
+| TIA | -0.00437% | -38.3% APR | -4.6% |
+| MON | -0.00381% | -33.3% APR | -2.8% |
 
-**⚠️ Elevated Funding (>~4% annualized):**
-- **ACE**: 15.6% annualized 🟢 neg (shorts pay) | OI=$603,594
-- **SKR**: 7.2% annualized 🟢 neg (shorts pay) | OI=$342,586
-- **MON**: 6.5% annualized 🟢 neg (shorts pay) | OI=$37,653,234
-- **OP**: 6.1% annualized 🟢 neg (shorts pay) | OI=$2,900,441
-- **GAS**: 6.0% annualized 🟢 neg (shorts pay) | OI=$74,314
-- **BRETT**: 5.3% annualized 🔴 pos (longs pay) | OI=$210,718
+**Flagged (abs(funding) > 0.001%/h):** 140+ coins exceed threshold. BTC/ETH/majors all at +0.00125%/h base rate. Extreme outliers: AZTEC (+51% APR), SPX (+40%), DOT (-46% APR).
 
-## Top Movers (24h)
+### Top Movers (24h)
 
-**Gainers:** NIL (+12.3%), TURBO (+5.1%), ICP (+4.2%), ZETA (+4.0%), PEOPLE (+3.8%), MOVE (+3.2%), TRUMP (+2.6%)
+**Gainers:**
+1. NIL +16.1% (oi=21M)
+2. TURBO +3.6% (oi=483M)
+3. ICP +2.9% (oi=1.4M)
+4. MINA +2.5% (oi=21M)
+5. ZETA +2.5% (oi=34M)
 
-**Losers:** FOGO (-16.6%), PURR (-11.8%), FET (-9.0%), ZRO (-8.3%), STX (-8.0%), SPX (-7.3%), VVV (-7.3%), BCH (-7.0%), SKR (-7.0%), CASHCAT (-7.0%)
+**Losers:**
+1. FOGO **-17.3%** (oi=59M)
+2. PURR **-12.4%** (oi=99M, Hyperliquid native token)
+3. STX **-9.8%** (oi=4.5M)
+4. FET **-9.5%** (oi=38M)
+5. JUP **-8.7%** (oi=45M)
 
-## Open Interest & Volume
+### OI / Volume
 
-**Top 5 by Notional OI:**
-| Coin | Notional OI | 24h Vol | Funding |
-|------|-------------|---------|---------|
-| BTC | $2.87B | $3.45B | 0.0013% |
-| HYPE | $1.94B | $850.7M | -0.0016% |
-| ETH | $1.84B | $1.01B | 0.0013% |
-| SOL | $593.9M | $759.2M | 0.0005% |
-| ZEC | $448.3M | $281.8M | 0.0013% |
+- **BTC OI:** 36,992 BTC (~$2.87B) | depth: 4.42 BTC bid / 2.54 BTC ask @ $77,667 — tight 0.0013% spread
+- **ETH OI:** 755,531 ETH (~$1.84B)
+- **SOL OI:** 5.74M SOL (~$594M) | vol/OI ratio: 129x — high turnover
 
-## Trade Ideas
+**OI divergence (all red):**
+- PUMP: 44.9B OI, -3.0% — extreme OI for a memecoin, bearish divergence
+- kPEPE: 6.4B OI, -5.0% — massive OI, negative funding (longs paying)
+- ENA: 408.8M OI, -7.3% — significant OI + bearish price action
+- FARTCOIN: 197M OI, -6.1% — high positive funding (31% APR), OI growing into weakness
 
-### Funding Carry
-- **Long ACE** (earn 15.6% annualized), **SKR** (7.2%), **MON** (6.5%)
-- **Short BRETT** (earn 5.3%), **SPX** (3.0%), **APEX** (2.8%)
-- **Best pair:** LONG ACE + SHORT BRETT → net 20.9% annualized carry
+**TURBO** is the only high-OI coin with positive price action (+3.6%, OI 483M) — bullish divergence.
 
-### Momentum
-- **NIL** +12.3% with $1M OI — highest gainer
-- **TURBO** +5.1% with $495K OI — notable meme momentum
-- **PURR** -11.8% / **ZRO** -8.3% — sharp pullbacks on significant OI
+### Basis / Arbitrage
 
-## Market-wide Stats
-- Active markets: 176
-- Total notional OI: **$9.61B**
-- Total 24h volume: **$7.09B**
-- BTC dominance: 29.9% | ETH: 19.2% | HYPE: 20.2%
-- Volume/OI ratio: 0.74x (moderate turnover)
+Top premium/perpetual basis opportunities:
+
+| Coin | Premium | Annualized | Funding |
+|------|---------|-----------|---------|
+| APEX | +0.179% | +65.5% | +0.0020% |
+| BRETT | +0.121% | +44.3% | +0.00458% |
+| W | -0.110% | -40.3% | -0.00139% |
+| DOT | -0.106% | -38.6% | -0.00522% |
+| TIA | -0.101% | -36.7% | -0.00437% |
+
+Wide premiums suggest short-term funding/liquidation pressure rather than structural arb.
+
+### Trade Ideas
+
+1. **Funding arb pair: Long DOT / Short AZTEC or SPX**
+   - DOT pays -45.7% APR to hold short (i.e. longs earn funding); AZTEC charges +51% APR to hold long
+   - Potential carry trade: long DOT perp, short AZTEC perp → ~97% gross annualized differential
+   - Risk: DOT -4% on the day, momentum unfavourable; need delta-neutral sizing
+
+2. **Oversold bounce watch: PURR -12.4% in 24h**
+   - Hyperliquid's native token, high OI (99M), cleanest L2 book
+   - If BTC stabilises, mean-reversion candidates: PURR, FOGO (-17.3%)
+   - Position sizing critical — low-market-cap tokens can gap
+
+3. **Momentum: TURBO +3.6% on 483M OI (only high-OI gainer)**
+   - Rallied while everything else dropped — relative strength
+   - Low price ($0.001), memecoin dynamics, high volatility risk
+
+### Risk Notes
+
+- **Broad risk-off:** BTC -2.5% with 90%+ of altcoins in the red. Funding base rate elevated at +11% APR suggests persistent long bias.
+- **kPEPE liquidation cascade risk:** 6.4B OI with -5% price and negative funding. A sharp move could trigger cascading liquidations. Monitor closely.
+- **FARTCOIN & SPX warning:** Both have high positive funding (31-40% APR) while price is down. Longs are bleeding — if BTC drops further, forced selling accelerates.
+- **PURR (-12.4%):** Hyperliquid spot token; large OI relative to market cap. Sharpest single-day drop suggests potential deleveraging event.
+- **Liquidation cluster:** Medium conviction. BTC below $77k (currently $77,668) could accelerate the flush to $75k support — high-OI meme coins would compound the move.
+
+## Summary
+
+- **Source:** Hyperliquid public API
+- **Data:** allMids, metaAndAssetCtxs (funding, OI, 24h vol, premiums), l2Book (BTC, DOT, AZTEC, SPX, FARTCOIN)
+- **Market regime:** risk-off, broad selloff, bearish OI divergence
+- **Top signal:** funding polarisation creating a rare ~97% APR differential carry opportunity (long DOT, short AZTEC/SPX)
+- **Top risk:** kPEPE 6.4B OI liquidation cascade + memecoin deleveraging
+- **Actionable:** funding arb pair setup; monitor PURR/FOGO for bounce entries

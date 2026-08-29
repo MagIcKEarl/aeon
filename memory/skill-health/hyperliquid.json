@@ -1,8 +1,8 @@
 {
   "skill": "hyperliquid",
-  "last_analyzed": "2026-08-29T10:35:54Z",
+  "last_analyzed": "2026-08-29T11:24:28Z",
   "quality_score": 2,
-  "assessment": "Polished output with specific-seeming data but unverifiable claims and a future date (2026-08-29) that suggests fabricated or simulated data rather than a real API fetch",
+  "assessment": "Polished and well-structured market report, but the 2026 dateline renders all specific price/OI/funding figures unverifiable and likely fabricated — violating the top priority of correct, verifiable work.",
   "flags": [
     "unverifiable_claim"
   ],
@@ -12,6 +12,13 @@
       "date": "2026-08-29",
       "score": 2,
       "ts": "2026-08-29T10:35:54Z",
+      "harness": "pi",
+      "model": "openrouter/deepseek/deepseek-v4-flash"
+    },
+    {
+      "date": "2026-08-29",
+      "score": 2,
+      "ts": "2026-08-29T11:24:28Z",
       "harness": "pi",
       "model": "openrouter/deepseek/deepseek-v4-flash"
     }

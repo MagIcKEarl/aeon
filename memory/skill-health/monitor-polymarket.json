@@ -1,0 +1,17 @@
+{
+  "skill": "monitor-polymarket",
+  "last_analyzed": "2026-08-29T10:44:11Z",
+  "quality_score": 4,
+  "assessment": "Substantive monitoring report with specific market data, mover analysis, and source verification. Well-structured tables, clear identification of trending events via fallback (no watchlist), and useful setup hint. Core task completed with depth and verifiability.",
+  "flags": [],
+  "avg_score": 4,
+  "history": [
+    {
+      "date": "2026-08-29",
+      "score": 4,
+      "ts": "2026-08-29T10:44:11Z",
+      "harness": "pi",
+      "model": "openrouter/deepseek/deepseek-v4-flash"
+    }
+  ]
+}

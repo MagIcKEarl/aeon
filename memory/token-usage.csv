@@ -1,2 +1,2 @@
 date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
-2026-08-29,yield-farming,openrouter/deepseek/deepseek-v4-flash,410,1879,38400,0
+2026-08-29,monitor-polymarket,openrouter/deepseek/deepseek-v4-flash,719,1222,65280,0

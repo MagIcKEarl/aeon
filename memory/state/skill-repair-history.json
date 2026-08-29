@@ -1,0 +1,8 @@
+{
+  "token-pick": {
+    "last_repair_at": "2026-08-29T12:00:00Z",
+    "exit_code": "REPAIR_OK_FIXED",
+    "fix_pr": "branch pushed (PR blocked by Actions policy — https://github.com/MagIcKEarl/aeon/pull/new/fix/skill-repair-token-pick-2026-08-29)",
+    "issue": "ISS-001"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "skill": "github-monitor",
+  "last_analyzed": "2026-08-29T11:58:47Z",
+  "quality_score": 4,
+  "assessment": "Clean, well-structured monitor run with verifiable specifics (PR count, issue #, dates, labels). Correctly identified all sources were empty/no-match and did not send a notification — exactly the right behavior for a 'signal-only' skill. Legitimate no-op, not empty_output.",
+  "flags": [],
+  "avg_score": 4,
+  "history": [
+    {
+      "date": "2026-08-29",
+      "score": 4,
+      "ts": "2026-08-29T11:58:47Z",
+      "harness": "pi",
+      "model": "openrouter/deepseek/deepseek-v4-flash"
+    }
+  ]
+}

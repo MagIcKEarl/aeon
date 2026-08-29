@@ -1,49 +1,56 @@
 # Strategy
 
 Aeon's north-star. Every skill reads this — it's imported into `CLAUDE.md`, so it
-sits in context on **every** run. Skills should align their output to it: what to
-work on, what to prioritise, what to flag, what to skip.
-
-Keep it short (it costs tokens each run): one north-star, 3–5 priorities, the
-constraints. Replace the defaults below with your own.
-
-> **Status:** unconfigured defaults. Until you tailor this file, skills operate
-> with general best judgment and no specific bias. Remove this line once it's yours.
+sits in context on **every** run. Skills align their output to it: what to work on,
+what to prioritise, what to flag, what to skip.
 
 ## North-star metric
 
-The single outcome everything should move toward.
-*e.g. "weekly active users of my app", "MRR", "reach of my research".*
-
-**Default:** sustainable, compounding progress on the operator's active projects.
+Risk-adjusted, compounding edge on the markets Aeon can actually read. Signal
+quality over trade count. Every run must move one of: a confirmed setup, a
+de-risked position, or a sharper edge.
 
 ## Priorities
 
-The few things that matter most right now, most important first.
-
-1. Correct, verifiable work over work that merely looks finished.
-2. Depth on the operator's core projects over broad, shallow coverage.
-3. Surface signal early — don't sit on something that needs a decision.
-
-*Replace with your own; cap at ~5.*
+1. **BTC risk first.** BTC is the regime governor. Risk-off (red breadth, funding
+   polarised like 2026-08-29) means cut exposure, not add. Don't catch falling
+   knives in ETH or alts when BTC is weak.
+2. **Capital-efficient setups over directional gambles.** Funding-arb carry
+   (long DOT / short AZTEC-style), real yield (Kamino USDC 10.4%, Aave WETH),
+   prediction-market edges (Fed no-change YES vs 43.5% hike pricing). These pay
+   without betting on direction.
+3. **High-beta, high-risk longs only on confirmed strength.** SPX/BRETT-style
+   meme funding blowoffs + negative price = longs bleeding; avoid. TURBO-style
+   (up on high OI while market red) is the profile to chase — relative strength.
+4. **Supply pressure is a sell signal.** Track unlocks. $1.52B week = fade the
+   pumped names near vesting (ENA +95% into unlock = exit). 
+5. **Ignore concentrated/moneygrab chains.** Robinhood chain and similar where a
+   handful of whales hold most of supply. Garnish filter — skip unless
+   exceptional.
 
 ## Audience
 
-Who the output is for, and their level.
-*e.g. "technical founders on X", "my internal team", "just me".*
-
-**Default:** the operator — assume technical and time-constrained.
+Marius — technical, time-constrained, cost-first. Wants the high-signal summary,
+not the raw dump. English.
 
 ## Hard constraints
 
-Lines never to cross.
+- Never chase Robinhood-chain or similarly concentrated tokens.
+- Stay capital-preservation-first: no sizing into thin, illiquid mcap.
+- Never let a narrative (RWA, AI, Quantum) override on-chain funding and breadth.
+- Stay within spend budget — no runaway model cost (OpenRouter harness, lean runs).
+- Flag anything needing a decision immediately; don't sit on signal.
 
-- Never publish secrets, private data, or unverified claims as fact.
-- Stay within any configured spend and rate limits.
+## Edge to defend
 
-*Add your own — budget caps, tone, topics to avoid, compliance limits.*
+- **Reads:** funding polarisation (Hyperliquid), unlock calendar, real yield,
+  prediction-market mispricing, live breadth.
+- **Feeds that matter:** Hyperliquid funding/OI, unlock-monitor, yield scan,
+  token-movers breadth, forecast F&G, Polymarket/Kalshi edges.
+- **Feeds to tune/ignore:** Robinhood-chain movers, single-whale pumps.
 
-## Optimize for / avoid
+## Improve automatically
 
-- **Optimize for:** signal, correctness, and the priorities above.
-- **Avoid:** filler, hype, busywork, anything off-strategy.
+Each cycle: log what setups ran, their outcome, and the edge they produced.
+Prune sellers, double down on what pays. Update this file monthly or when the
+regime flips.

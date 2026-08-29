@@ -1,18 +1,33 @@
-The skill ran to completion. Here's the summary:
+Run complete. Here's the summary:
 
-## What happened
+---
 
-**Skill**: price-alert  
-**Status**: `PRICE_ALERT_NO_TOKEN`
+## Summary
 
-The skill read `memory/MEMORY.md` looking for a **"Tracked Token"** section with a contract address and chain — but no such section exists. MEMORY.md still contains the default placeholder template from the unconfigured skill set.
+**Skill**: price-alert — ran on 2026-08-29
 
-Per the skill instructions, when no tracked token is configured, the skill exits silently with no notification and no state file written.
+### Steps executed
 
-## What was created
+| Step | Result |
+|------|--------|
+| **1. Parse var** | `${var}` not set → `TARGETS=()` — ATH and sharp-move gates can still run |
+| **2. Resolve tracked token** | No "Tracked Token" section in `memory/MEMORY.md` → logged `PRICE_ALERT_NO_TOKEN` |
+| **3–8** | Skipped — no token configured |
+| **9. Log** | Appended entry to `memory/logs/2026-08-29.md` |
 
-- **`memory/logs/2026-08-29.md`** — New log entry documenting this run.
+### Files modified
 
-## Follow-up needed
+- `memory/logs/2026-08-29.md` — appended `## Price Threshold Alert` block with `PRICE_ALERT_NO_TOKEN` status
 
-To make this skill useful, the operator needs to add a **Tracked Token** table to `memory/MEMORY.md` with a token contract address (e.g. `0xbf8e8f0e8866a7052f948c16508644347c57aba3` on `base`) so the DexScreener API can fetch prices. After that, the skill will evaluate ATH, sharp 1h moves, and any operator-set target crossings on its 30-minute schedule.
+### Follow-up needed
+
+To activate price alerts, add a **Tracked Token** section to `memory/MEMORY.md`. The expected format is a table with columns: token name, contract address (0x-prefixed), and chain:
+
+```markdown
+## Tracked Token
+| Token | Contract | Chain |
+|-------|----------|-------|
+| PEIPEIP | 0xbf8e8f0e8866a7052f948c16508644347c57aba3 | base |
+```
+
+Once configured, subsequent runs will fetch live prices from DexScreener and evaluate ATH, sharp-move (±20% 1h), and operator-set target crossing gates.

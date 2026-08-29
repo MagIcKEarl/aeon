@@ -192,14 +192,16 @@
     "last_quality_score": 4
   },
   "changelog": {
-    "last_status": "success",
+    "last_status": "failed",
     "last_success": "2026-08-29T12:00:19Z",
-    "total_runs": 1,
+    "total_runs": 2,
     "total_successes": 1,
-    "total_failures": 0,
-    "consecutive_failures": 0,
-    "success_rate": 1,
-    "last_quality_score": 3
+    "total_failures": 1,
+    "consecutive_failures": 1,
+    "success_rate": 0.5,
+    "last_quality_score": 3,
+    "last_failed": "2026-08-29T13:32:49Z",
+    "last_error": "hermes -z: --provider requires --model (or HERMES_INFERENCE_MODEL). Pass both explicitly, or neither to use your configured defaults. hermes exited 2:  "
   },
   "soul-builder": {
     "last_status": "success",

@@ -1,104 +1,103 @@
-ℹ️ 🌾 Yield Farming Scan — 2026-08-29
+ℹ️ Yield Farming Scan — 2026-08-29
 
-### Yield Landscape Summary — 2026-08-29
+## Yield Farming Landscape — 2026-08-29
 
-| Chain | Best Protocol | Top Sustainable APY | Risk Level |
-|-------|--------------|--------------------|------------|
-| **Ethereum** | Morpho Blue (USDC vaults) | 5–8% | Low |
-| **Ethereum** | Curve (CRVUSD-TBTC) | 13% | Medium |
-| **Base** | Aerodrome WETH-USDC | 9–55% | Low-Med |
-| **Base** | Aerodrome USDC-AERO | 22% | Medium |
-| **Solana** | Marinade / Jito (mSOL/JitoSOL) | 5–6% | Low |
-| **Solana** | Kamino Lend (USDC) | 5–10% | Low |
-| **Arbitrum** | GMX v2 perp pools (ETH-USDC) | 7% | Low-Med |
-| **Arbitrum** | Aave v3 (USDC) | 2.3% | Very Low |
-| **Avalanche** | GMX v2 perp pools (BTC-USDC) | 17% | Medium |
-| **Polygon** | Aave v3 (USDC) | 2.9% | Very Low |
-| **Optimism** | — | No pools detected | N/A |
+**Market backdrop:** BTC $77,674 (−2%), ETH $2,437 (−2%), SOL $103 (−2%), Fear & Greed 68 (Greed). Broad risk-off today but yield markets remain liquid. DeFi TVL $286.7B.
 
----
+### Yield Landscape Summary
 
-### Top 5 Picks (ranked by risk-adjusted return)
+| Chain | Best Lending APY | Top DEX APY (TVL>=$1M) | Risk Level | Best Protocol |
+|-------|-----------------|----------------------|------------|--------------|
+| Ethereum | 5.72% (USDG on Aave V3) | 257% (WETH-CBBTC, Aerodrome) | Low-Med | Aave V3 / Morpho Blue |
+| Base | 3.48% (USDC on Aave V3) | 115% (WETH-USDC, Aerodrome) | Low-Med | Aerodrome / Aave V3 |
+| Arbitrum | 3.19% (USDt on Aave V3) | 25% (WETH-USDC, Uniswap V3) | Low | Aave V3 / Compound V3 |
+| Solana | 10.41% (USDC on Kamino Lend) | 126% (SOL-USDC, Orca) | Med-High | Kamino / Orca / Raydium |
+| Optimism | 2.19% (USDC on Aave V3) | 170% (WETH-ZRO, Uniswap) | Med | Aave V3 |
+| Polygon | 3.45% (USDT on Aave V3) | 3109% (USDC-USDT, Uniswap V4)* | Med | Aave V3 |
+| Avalanche | 6.18% (USDC on Aave V4) | 5604% (WETH.E-USDC, Uniswap V4)* | Med | Aave V4 |
 
-#### 🥇 1. Morpho Blue — USDC Vaults (Ethereum)
-- **Yield:** 4–8% APY (target: SENPYUSDMAIN 5.5%, STEAKUSDC 4%, SENRLUSDV2 6.3%)
-- **TVL:** $40M–$388M per vault | **Score:** 5/5
-- **IL risk:** None (single-asset lending) | **Protocol risk:** Very low (audited, battle-tested, Blue chip backers)
-- **Token risk:** None (earn in USDC, no reward token)
-- **$1k/mo:** ~$4–$7/month
-- **Why:** The highest yield among audited, single-asset stablecoin lenders. Morpho dominates DeFi lending with $3B+ TVL across its blue chip vaults. No IL, no token dumping, just real yield from borrowers.
+*\* Ultra-high APY on low-TVL volatile pools — not suitable for production farming.*
 
-#### 🥈 2. Aerodrome Slipstream — WETH-USDC (Base)
-- **Yield:** 9–55% APY (choose the tighter concentrated range for ~9–15%, wider for up to 55%)
-- **TVL:** $6M–$10M (multiple WETH-USDC pools) | **Score:** 4/5
-- **IL risk:** Medium-High for wide range, Low-Medium for tight range
-- **Protocol risk:** Low (Aerodrome is the dominant DEX on Base, audited by multiple firms, $200M+ TVL)
-- **Token risk:** Low (AERO emissions boost the APY; AERO is a known Base blue chip, not a memecoin; emissions are sustainable)
-- **$1k/mo:** ~$8–$45/month depending on range tightness
-- **Key risk:** Impermanent loss in volatile markets. Tighten your range to ±15% to stay in the safe zone.
-- **Exit:** If AERO weekly emissions drop >50% or pool TVL halves.
+### Top 5 Picks (Risk-Adjusted)
 
-#### 🥉 3. Solana Liquid Staking — mSOL / JitoSOL
-- **Yield:** 5–6% APY (Marinade mSOL 6.0%, Jito JitoSOL 5.1%)
-- **TVL:** $240M (mSOL), $1B (JitoSOL) | **Score:** 4/5
-- **IL risk:** None (holding staked SOL; staking APY is paid in SOL)
-- **Protocol risk:** Very low (Marinade and Jito are Solana's top liquid staking protocols, repeatedly audited)
-- **$1k/mo:** ~$4–$5/month
-- **Why:** The simplest passive yield on Solana. Staked SOL trades near 1:1 with SOL and earns 5-6% with zero management. Far higher than ETH staking (2.2%) for comparable risk.
-- **Exit:** If liquid staking depegs >1% from SOL or staking APY drops below 3%.
+**1. USDC Lending on Kamino Lend (Solana)**
+- **APY:** 10.41% | **TVL:** $5.25M | **Score:** 4/5
+- **IL risk:** None (single-asset lending)
+- **Protocol risk:** Kamino is audited (OtterSec, Kudelski), battle-tested with $500M+ on Solana
+- **Token risk:** USDC — blue chip stablecoin
+- **$1k/mo expected:** $8.67
+- **Key risk:** Solana network stability/solvency of USDC issuer
+- **Exit condition:** APY drops below 5%, or Kamino TVL drops >30% in a week
 
-#### 4. GMX v2 Perp Pools — ETH-USDC (Arbitrum)
-- **Yield:** 7% APY (ETH-USDC), 4% (WBTC-USDC)
-- **TVL:** $52M (ETH-USDC) | **Score:** 3.5/5
-- **IL risk:** Low-Medium (GLP-style multi-asset pool with balanced exposure)
-- **Protocol risk:** Low (GMX is the perp DEX leader on Arbitrum, $500M+ cumulative volume, audited)
-- **Token risk:** Medium (rewards in GMX/ETH; GMX has some inflation but established)
-- **$1k/mo:** ~$5.80/month
-- **Key risk:** Crypto market downturn reduces perp trading volume and fee generation.
-- **Exit:** If average daily volume drops below $20M or toke emission halving flattens APY.
+**2. RLUSD / USDC Supply on Aave V3 (Ethereum)**
+- **APY:** 4.99% | **TVL:** $68.9M RLUSD, + $57.2M USDC = $126M | **Score:** 4/5
+- **IL risk:** None (single-asset lending)
+- **Protocol risk:** Aave is the most battle-tested lending protocol, audited many times over
+- **Token risk:** RLUSD (Paxos/stable) and USDC — both blue chip
+- **$1k/mo expected:** $4.16
+- **Key risk:** Stablecoin depeg; regulatory action
+- **Exit condition:** Supply APY falls below 2.5%, or utilization spikes above 95%
 
-#### 5. Curve — CRVUSD-TBTC (Ethereum)
-- **Yield:** 13% APY
-- **TVL:** $37M | **Score:** 3/5
-- **IL risk:** Medium (BTC paired with stablecoin; BTC volatility creates IL)
-- **Protocol risk:** Low (Curve is the original stablecoin DEX, $3B+ TVL, audited many times)
-- **Token reward risk:** Low-Medium (CRV is established but inflationary)
-- **$1k/mo:** ~$10.80/month
-- **Key risk:** BTC price volatility. The TBTC-CRVUSD pair has real BTC backing, so IL is recoverable if you hold long-term.
-- **Exit:** If CRV token incentives are cut significantly or pool TVL drops below $10M.
+**3. USDC-AERO on Aerodrome V1 (Base)**
+- **APY:** 22.24% | **TVL:** $28.8M | **Score:** 3.5/5
+- **IL risk:** Medium — AERO is volatile (up to −50% IL in sharp AERO moves)
+- **Protocol risk:** Aerodrome is the dominant DEX on Base, forked from Velodrome — battle-tested
+- **Token risk:** AERO is a blue-chip Base token but still protocol-native. 88% of yield comes from AERO emissions
+- **$1k/mo expected:** $18.53
+- **Key risk:** AERO token price depreciation (reward token down)
+- **Exit condition:** AERO price loses >40% in a week, or emission rate drops
 
----
+**4. WETH Supply on Aave V3 (Ethereum)**
+- **APY:** 5.18% (isolated pool) / 1.49% (main pool) | **TVL:** $24.3M + $819.5M | **Score:** 3.5/5
+- **IL risk:** None (single-asset lending)
+- **Protocol risk:** Aave V3 — ultra-low
+- **Token risk:** ETH — blue chip
+- **$1k/mo expected:** $4.32 (isolated pool) / $1.24 (main pool)
+- **Key risk:** ETH price decline (you hold the asset regardless)
+- **Exit condition:** n/a — lending ETH for yield is a long-term strategy
 
-### Watch List (high yield, high risk)
+**5. SOL-USDC on Orca (Solana)**
+- **APY:** 126.52% | **TVL:** $25.1M | **Score:** 3/5
+- **IL risk:** High — SOL is volatile vs USDC (potential −30-50% IL in a sharp SOL move)
+- **Protocol risk:** Orca is audited, one of Solana's top DEXes
+- **Token risk:** Rewards in ORCA and swap fees — ORCA is mid-cap
+- **$1k/mo expected:** $105.43 (gross) / ~$50-70 after IL estimate
+- **Key risk:** SOL drawdown — massive IL if SOL drops 20%+
+- **Exit condition:** SOL drops below $90, or if ORCA liquidity halves
 
-| Pool | Chain | APY | TVL | Why Watch |
-|------|-------|-----|-----|-----------|
-| Aerodrome USDC-VELVET | Base | 180,214% | $1.3M | Novel token, extreme emissions. Get in only if you understand VELVET tokenomics. |
-| Aerodrome USDC-PROS | Base | 25,891% | $714K | Same setup — high emission farm token. Potential for rapid dilution. |
-| Kamino Lend SOL | Solana | 10–12% | $19M | SOL borrowing demand is high. Deposit cap limits mean yield could compress. |
-| Curve FRXUSD-USP | Ethereum | 809% | $107K | Micro cap stable pool. Slippage and depeg risk are real. |
-| Raydium HOODX-USDC | Solana | 205% | $679K | Memecoin pair. High IL, low liquidity depth. |
+### Watch List (High Yield, High Risk)
 
----
+| Pool | Chain | APY | TVL | Risk Factor |
+|------|-------|-----|-----|-------------|
+| WETH-CBBTC Aerodrome Slipstream | Base | 257% | $10.6M | IL risk on volatile pair; AERO emissions may be unsustainable |
+| PUMP-SOL Orca | Solana | 290% | $2.7M | Memecoin reward token; extreme IL |
+| USDC-NVDAC Aerodrome | Base | 338% | $1.9M | Single-asset correlated volatile (NVDAC = MicroStrategy-style leveraged BTC) |
+| WETH-ZRO Uniswap V3 | OP Mainnet | 170% | $29K | Tiny TVL — one whale exit wrecks it |
+| IDAI-IUSDC-IUSDT Curve | Ethereum | 121% | $1.8M | Iron Bank stablecoins — smart contract risk |
 
 ### Closed / Degen Positions to Monitor
 
-| Position | Chain | Status | Note |
-|----------|-------|--------|------|
-| Aerodrome SOL-USDC | Base | Active (3,815% APY, $384K TVL) | Solana bridged token on Base. Novel but high risk — monitor for bridge stability and token dilution. |
-| Blackhole CLMM WAVAX-USDC | Avalanche | Active (1,144%, $421K) | Tokemak-style emissions. Avalanche's Aerodrome equivalent. Small TVL but active incentive program. |
-| Uniswap v4 WETH-BASECAT | Base | Active (1,806%, $360K) | Memecoin + ETH. Classic IL farm — BASECAT can go to zero. |
+- **Morpho Blue STEAKUSDT ($89.5M, 2.51% APY)** — large TVL but modest yield; watch for vault strategy changes
+- **Aerodrome Slipstream WETH-USDC ($10.2M, 50% APY)** — stable mid-range yield, good IL-profile; set-and-forget
+- **Raydium WSOL-USDC ($14M, 105% APY)** — Solana's deepest SOL-USDC pool; high yield but high IL
+- **Curve CRVUSD-TBTC ($37M, 13% APY)** — btc-pegged stable vs TBTC; decent risk-adjusted yield with Curve's CRV+CVX flywheel
+- **Pendle REUSD ($10.4M, 19% APY)** — yield tokenization; fixed-rate exposure. Watch the PT/YT spread
+- **Compound V3 USDC Arbitrum ($3.6M, 2.75% APY)** — stable no-frills lending
 
----
+### Notes & Strategy
 
-### Yield Market Commentary — August 2026
+- **Best risk-adjusted: USDC on Kamino Lend (Solana)** at 10.4% for single-asset stables. Process: deposit USDC, earn the lending APY + any KMNO incentives. No IL, pure yield.
+- **For ETH holders:** Supply WETH on Aave V3 Ethereum isolated pool at 5.18% — this is the highest ETH lending rate since early 2024.
+- **For LP farmers:** Aerodrome WETH-USDC on Base at 50% APY with $10M TVL is the sweet spot: decent TVL, moderate IL, Base gas costs near zero.
+- **Pendle yield:** REUSD at 19.3% APY on $10.4M TVL is attractive — you're buying future yield at a discount via PT or earning boosted yield via YT.
+- **Macro watch:** With Fed decision 30 days out and F&G at 68 (still Greed), crypto lending demand remains high. If sentiment turns, stablecoin yields could compress as users seek safety.
 
-**Theme of the month: RWA stablecoins are pushing yields higher.** Morpho Blue vaults backed by sUSDe, PYUSD, and USDG now offer 5-8% on USDC, well above traditional Aave (3-5%). The RWA stablecoin market (Ethena, Sky, Ondo) continues to attract deposits by offering sustainable yields from real-world collateral and delta-neutral strategies.
+### Summary
 
-**Solana staking remains the standout passive play.** With SOL staking at 5-6% vs. ETH at 2.2%, the 2-3x premium reflects Solana's higher inflation rate but also higher network activity. The gap has been stable for months.
-
-**Base is the hot chain for yield farming.** Aerodrome's Slipstream model and AERO emissions continue to draw TVL. The WETH-USDC and WETH-CBBTC pairs offer the best risk-adjusted yields on any L2 right now. Watch for emissions halving schedules.
-
-**Arbitrum GMX holds steady.** Perp fee generation remains solid (7% on ETH-USDC). With GMX's new synthetic asset markets and real yield model, this is a set-and-forget earner.
-
-**Ethereum Curve stablecoin pools are grinding.** The CRVUSD-TBTC pool at 13% is the standout. With CRV emissions tailing off, high-yield Curve pools are becoming rare — get in while they last.
+- Fetched live yield data from DeFiLlama (17,346 pools across all chains)
+- Analyzed 5,172 pools across Ethereum, Base, Arbitrum, Solana, Optimism, Polygon, and Avalanche
+- Top protocols scanned: Aerodrome, Uniswap V3/V4, Curve, Balancer, Aave V3/V4, Compound V3, Morpho Blue, Kamino (Lend+Liquidity), Orca, Raydium, Pendle
+- Produced ranked top-5 picks by risk-adjusted return with expected monthly returns on $1,000
+- No notification sent (read-only mode — report captured as output)
+- No files modified (read-only mode)
+- Follow-up: nothing actionable — this is a scan and report

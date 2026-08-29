@@ -1,17 +1,22 @@
 {
   "skill": "yield-farming",
-  "last_analyzed": "2026-08-29T10:42:06Z",
-  "quality_score": 2,
-  "assessment": "Well-structured and fluent yield report with specific APY/TVL figures, but lacks any source citations, timestamps, or methodology — the detailed numeric claims are unverifiable, and the rubric caps such output at 2.",
-  "flags": [
-    "unverifiable_claim"
-  ],
-  "avg_score": 2,
+  "last_analyzed": "2026-08-29T11:33:10Z",
+  "quality_score": 4,
+  "assessment": "Substantive, well-structured yield farming scan with specific APY/TVL data, risk-adjusted top picks, exit conditions, and clear sourcing. Delivers actionable analysis in a readable format. Marks the config as 'unconfigured defaults' which is accurate. Not a 5 because depth is standard for the domain rather than exceptional insight.",
+  "flags": [],
+  "avg_score": 3,
   "history": [
     {
       "date": "2026-08-29",
       "score": 2,
       "ts": "2026-08-29T10:42:06Z",
+      "harness": "pi",
+      "model": "openrouter/deepseek/deepseek-v4-flash"
+    },
+    {
+      "date": "2026-08-29",
+      "score": 4,
+      "ts": "2026-08-29T11:33:10Z",
       "harness": "pi",
       "model": "openrouter/deepseek/deepseek-v4-flash"
     }

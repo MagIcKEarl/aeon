@@ -1,3 +1,3 @@
 date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-08-29,unlock-monitor,openrouter/deepseek/deepseek-v4-flash,554,456,118272,0
-2026-08-29,token-movers,openrouter/deepseek/deepseek-v4-flash,835,626,31744,0
+2026-08-29,yield-farming,openrouter/deepseek/deepseek-v4-flash,256,1637,48896,0

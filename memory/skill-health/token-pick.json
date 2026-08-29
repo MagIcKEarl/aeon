@@ -1,0 +1,19 @@
+{
+  "skill": "token-pick",
+  "last_analyzed": "2026-08-29T10:38:00Z",
+  "quality_score": 1,
+  "assessment": "No usable output produced; skill only emitted an interactive prompt with no analysis, draft, or findings.",
+  "flags": [
+    "empty_output"
+  ],
+  "avg_score": 1,
+  "history": [
+    {
+      "date": "2026-08-29",
+      "score": 1,
+      "ts": "2026-08-29T10:38:00Z",
+      "harness": "pi",
+      "model": "openrouter/deepseek/deepseek-v4-flash"
+    }
+  ]
+}

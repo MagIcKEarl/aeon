@@ -1,0 +1,19 @@
+{
+  "skill": "pr-review",
+  "last_analyzed": "2026-08-29T12:01:29Z",
+  "quality_score": 2,
+  "assessment": "Structured and well-formatted report, but the core claims about reviewing two specific PRs with '0 CRITICAL/ISSUE findings' are unverifiable given the acknowledged gh token limitations (pull:false). The output contains no actual review content or evidence, and defers substance to an external file.",
+  "flags": [
+    "unverifiable_claim"
+  ],
+  "avg_score": 2,
+  "history": [
+    {
+      "date": "2026-08-29",
+      "score": 2,
+      "ts": "2026-08-29T12:01:29Z",
+      "harness": "pi",
+      "model": "openrouter/deepseek/deepseek-v4-flash"
+    }
+  ]
+}

@@ -1,4 +1,4 @@
 date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-08-29,unlock-monitor,openrouter/deepseek/deepseek-v4-flash,554,456,118272,0
 2026-08-29,unlock-monitor,openrouter/deepseek/deepseek-v4-flash,863,628,98048,0
-2026-08-29,memory-flush,openrouter/deepseek/deepseek-v4-flash,256,347,16384,0
+2026-08-29,feature,openrouter/deepseek/deepseek-v4-flash,721,206,62976,0

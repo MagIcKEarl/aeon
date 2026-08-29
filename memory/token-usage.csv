@@ -1,2 +1,2 @@
 date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
-2026-08-29,defi-overview,openrouter/deepseek/deepseek-v4-flash,594,436,51712,0
+2026-08-29,price-alert,openrouter/deepseek/deepseek-v4-flash,370,296,13824,0

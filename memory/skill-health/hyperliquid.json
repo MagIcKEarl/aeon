@@ -1,0 +1,19 @@
+{
+  "skill": "hyperliquid",
+  "last_analyzed": "2026-08-29T10:35:54Z",
+  "quality_score": 2,
+  "assessment": "Polished output with specific-seeming data but unverifiable claims and a future date (2026-08-29) that suggests fabricated or simulated data rather than a real API fetch",
+  "flags": [
+    "unverifiable_claim"
+  ],
+  "avg_score": 2,
+  "history": [
+    {
+      "date": "2026-08-29",
+      "score": 2,
+      "ts": "2026-08-29T10:35:54Z",
+      "harness": "pi",
+      "model": "openrouter/deepseek/deepseek-v4-flash"
+    }
+  ]
+}

@@ -1,10 +1,10 @@
 {
   "skill": "finance-district-mcp",
-  "last_analyzed": "2026-08-29T11:19:44Z",
-  "quality_score": 3,
-  "assessment": "Acceptable - skill ran, diagnosed the missing connection clearly, and provided actionable next steps; primary task was blocked but the diagnostic output is useful and verifiable",
+  "last_analyzed": "2026-08-29T12:15:08Z",
+  "quality_score": 4,
+  "assessment": "Substantive, well-structured daily brief with verifiable on-chain data (wallet balances, specific APY/TVL figures for yield protocols). Actionable suggestion based on actual fetched data. Not just boilerplate - real numbers with addresses and protocol specifics.",
   "flags": [],
-  "avg_score": 3,
+  "avg_score": 3.5,
   "history": [
     {
       "date": "2026-08-29",
@@ -12,6 +12,12 @@
       "ts": "2026-08-29T11:19:44Z",
       "harness": "pi",
       "model": "openrouter/deepseek/deepseek-v4-flash"
+    },
+    {
+      "date": "2026-08-29",
+      "score": 4,
+      "ts": "2026-08-29T12:15:08Z",
+      "harness": "kimi"
     }
   ]
 }

@@ -1,8 +1,36 @@
-⚠️ Finance District: Not Connected
+## Daily Wallet Brief — Finance District
+
+**Connected as:** Magick Earl (magickearl@gmail.com)
+
+### Balances Across All Chains
+
+| Chain | Asset | Balance |
+|-------|-------|---------|
+| Ethereum | ETH | 0 |
+| Base | ETH | 0 |
+| BNB Chain | BNB | 0 |
+| Arbitrum | ETH | 0 |
+| Solana | SOL | 0 |
+| Bitcoin | BTC | 0 |
+| Sui | SUI | 0 |
+
+**EVM:** `0xC540...10d7` | **Solana:** `3Qub...baox` | **Bitcoin:** `bc1q...8w29` | **Sui:** `0xc4bf...65c4`
+
+---
+
+### Top USDC Yield on Base
+
+| Protocol | APY | TVL |
+|----------|-----|-----|
+| **Fluid Lending** | **5.58%** | $9.0M |
+| Compound V3 | 3.61% | $920K |
+| Aave V3 | 3.47% | $23.5M |
+
+**Suggestion:** Fluid Lending offers the best USDC yield on Base at 5.58% APY with healthy liquidity ($9M TVL). Consider depositing idle USDC there when you add funds.
+
+---
 
 ### finance-district-mcp
-- **Task:** daily wallet brief
-- **Spent:** none
-- **Result:** FD_NOT_CONNECTED — Finance District MCP server is not connected. No `mcp__finance-district__*` tools are available in this run.
-- **Action needed:** Go to dashboard → MCP panel → **Connect Finance District** via OAuth (requires `offline_access` scope). The OAuth token is stored as `MCP_FINANCE_DISTRICT_TOKEN` + `MCP_FINANCE_DISTRICT_OAUTH`, and `GH_SECRETS_PAT` must be set so refresh tokens persist (see [docs/mcp-oauth.md](docs/mcp-oauth.md) for details).
-- **Advisory:** Auto-approve limits, transfer caps, and a destination denylist are enforced server-side — once connected, the agent can check balances, prices, yields, and move funds within those limits.
+- Task: daily brief
+- Spent: none
+- Result: FD_OK

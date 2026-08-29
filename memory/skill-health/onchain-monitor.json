@@ -1,8 +1,8 @@
 {
   "skill": "onchain-monitor",
-  "last_analyzed": "2026-08-29T10:30:37Z",
+  "last_analyzed": "2026-08-29T11:21:11Z",
   "quality_score": 3,
-  "assessment": "Correctly prompted for an address to begin monitoring — functional and appropriate for an add-address action, but inherently shallow and awaiting input.",
+  "assessment": "Clean no-op handled correctly — read config, checked dedup, logged status, exited without noise.",
   "flags": [],
   "avg_score": 3,
   "history": [
@@ -10,6 +10,13 @@
       "date": "2026-08-29",
       "score": 3,
       "ts": "2026-08-29T10:30:37Z",
+      "harness": "pi",
+      "model": "openrouter/deepseek/deepseek-v4-flash"
+    },
+    {
+      "date": "2026-08-29",
+      "score": 3,
+      "ts": "2026-08-29T11:21:11Z",
       "harness": "pi",
       "model": "openrouter/deepseek/deepseek-v4-flash"
     }

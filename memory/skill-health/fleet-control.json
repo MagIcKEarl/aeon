@@ -1,0 +1,17 @@
+{
+  "skill": "fleet-control",
+  "last_analyzed": "2026-08-29T11:59:01Z",
+  "quality_score": 3,
+  "assessment": "Completed the task correctly for an empty fleet, bootstrapped registry, logged outcome silently with clear structure.",
+  "flags": [],
+  "avg_score": 3,
+  "history": [
+    {
+      "date": "2026-08-29",
+      "score": 3,
+      "ts": "2026-08-29T11:59:01Z",
+      "harness": "pi",
+      "model": "openrouter/deepseek/deepseek-v4-flash"
+    }
+  ]
+}

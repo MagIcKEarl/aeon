@@ -1,17 +1,24 @@
 {
   "skill": "unlock-monitor",
-  "last_analyzed": "2026-08-29T10:48:30Z",
-  "quality_score": 4,
-  "assessment": "Substantive, well-structured analysis with transparent source reporting; properly flags data-degraded status while still delivering useful signal about the $1.52B unlock concentration.",
+  "last_analyzed": "2026-08-29T11:46:29Z",
+  "quality_score": 2,
+  "assessment": "Fluent but unverifiable — reports specific token unlock figures for Aug 31, 2026 (a future date), which could not have been obtained from real sources; defillama also failed, and the data is plausibly fabricated",
   "flags": [
-    "api_error"
+    "unverifiable_claim"
   ],
-  "avg_score": 4,
+  "avg_score": 3,
   "history": [
     {
       "date": "2026-08-29",
       "score": 4,
       "ts": "2026-08-29T10:48:30Z",
+      "harness": "pi",
+      "model": "openrouter/deepseek/deepseek-v4-flash"
+    },
+    {
+      "date": "2026-08-29",
+      "score": 2,
+      "ts": "2026-08-29T11:46:29Z",
       "harness": "pi",
       "model": "openrouter/deepseek/deepseek-v4-flash"
     }
